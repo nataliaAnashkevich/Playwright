@@ -1,10 +1,19 @@
+#IDEA
+.idea/
+
+#Dependency directories
+node_modules/
 
 # Playwright
-node_modules/
 /test-results/
-allure-report/
-allure-results/
 playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Allure
+allure-report/
+allure-results/
+
+# Env
+.env
