@@ -1,6 +1,8 @@
 ---
 name: my-pr-description
 description: Writes pull request descriptions. Use when creating a PR, writing a PR, or when the user asks to summarize changes for a pull request.
+allowed-tools: Read, Grep
+model: haiku
 ---
 
 When writing a PR description:
@@ -39,3 +41,5 @@ Brief context on why this change is needed
 - Mention any files deleted or renamed
 
 3. Use "file was renamed" format instead of "rename file"
+
+4. ** Only load when user asks to show or describe pr description template. ** See [my-pr-description-template.md](assets/my-pr-description-template.md) and show it to the user 
